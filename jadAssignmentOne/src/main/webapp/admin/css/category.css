@@ -1,0 +1,142 @@
+
+
+@charset "UTF-8";
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    animation: fadeInDown 0.5s ease-out;
+}
+
+.header h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    text-decoration: none;
+    transition: transform 0.2s, background-color 0.3s;
+}
+
+.btn-primary {
+    background-color: #ff8c42;
+    color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.btn-primary:hover {
+    background-color: #e37637;
+    transform: scale(1.05);
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 40px;
+    animation: fadeIn 0.5s ease;
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 14px;
+    text-align: left;
+    border-bottom: 1px solid #f1f1f1;
+    transition: background-color 0.3s;
+}
+
+th {
+    background: #f8f9fa;
+    font-weight: bold;
+    color: #333;
+}
+
+tr:hover {
+    background-color: #eef7ff;
+}
+
+/* Role badges */
+.role {
+    padding: 6px 10px;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: 500;
+    transition: transform 0.2s;
+}
+
+.role:hover {
+    transform: scale(1.1);
+}
+
+.role-admin {
+    background-color: #d1f7c4;
+    color: #2e7d32;
+}
+
+.role-customer {
+    background-color: #f8d7da;
+    color: #c62828;
+}
+
+/* Action buttons */
+.actions {
+    display: flex;
+    gap: 12px;
+}
+
+.icon-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 6px;
+    border-radius: 50%;
+    transition: transform 0.2s, background-color 0.3s;
+}
+
+.icon-button:hover {
+    background-color: #f1f3f5;
+    transform: scale(1.1);
+}
+
+.btn-edit {
+    color: #007bff;
+}
+
+.btn-delete {
+    color: #dc3545;
+}
+
+/* Animations */
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
