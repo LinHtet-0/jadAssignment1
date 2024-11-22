@@ -391,3 +391,32 @@ main.sign-up-mode .carousel {
     padding: 1rem 2rem 1.5rem;
   }
 }
+
+.checkbox-custom {
+    display: none;
+}
+
+.checkbox-label {
+    position: relative;
+    padding-left: 25px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.checkbox-label:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 18px;
+    height: 18px;
+    border: 1px solid #bbb;
+    background-color: #fff;
+    border-radius: 3px;
+}
+
+.checkbox-custom:checked + .checkbox-label:before {
+    background-color: #8371fd;
+    border-color: #8371fd;
+}
+
