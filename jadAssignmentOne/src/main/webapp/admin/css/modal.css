@@ -1,20 +1,5 @@
 @charset "UTF-8";
 
-/* Modal Styles */
-.modal {
-    display: none;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.6);
-    justify-content: center;
-    align-items: center;
-    z-index: 1000;
-    animation: fadeIn 0.3s ease-in-out;
-}
-
 .modal-content {
     background: #ffffff;
     padding: 25px 30px;
@@ -115,7 +100,6 @@
     }
 }
 
-/* Adjustments for smaller screens */
 @media (max-width: 768px) {
     .modal-content {
         width: 90%;

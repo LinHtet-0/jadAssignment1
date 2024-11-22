@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="./css/customer.css">
 </head>
 <body>
-    <%@ include file="navbar.jsp" %>
+    <%@ include file="../na" %>
     <div class="main-content">
        <div class="header">
             <h1>Customer Management</h1>

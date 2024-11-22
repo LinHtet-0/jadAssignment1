@@ -6,10 +6,10 @@
     <meta charset="UTF-8">
     <title>Cleaning Service Admin Dashboard</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="../css/admin.css">
+    <link rel="stylesheet" href="../admin.css">
 </head>
 <body>
-    <%@ include file="navbar.jsp" %>
+    <%@ include file="../navbar.jsp" %>
     <script>
         // Interactive dashboard functionality can be added here
         document.addEventListener('DOMContentLoaded', () => {
