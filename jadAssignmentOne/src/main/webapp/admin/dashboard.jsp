@@ -33,18 +33,5 @@
             </div>
         </div>
     </div>
-    <script>
-        // Interactive dashboard functionality can be added here
-        document.addEventListener('DOMContentLoaded', () => {
-            const menuItems = document.querySelectorAll('.sidebar-menu a');
-            
-            menuItems.forEach(item => {
-                item.addEventListener('click', (e) => {
-                    menuItems.forEach(i => i.classList.remove('active'));
-                    e.currentTarget.classList.add('active');
-                });
-            });
-        });
-    </script>
 </body>
 </html>

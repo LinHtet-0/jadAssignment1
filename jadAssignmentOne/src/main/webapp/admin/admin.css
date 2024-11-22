@@ -88,3 +88,10 @@ body {
     font-weight: bold;
     color: var(--secondary-color);
 }
+.main-content{
+	max-width: 1200px;
+            margin: 10px auto;
+            padding: 20px;
+         
+}
+
